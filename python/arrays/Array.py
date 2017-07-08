@@ -6,11 +6,11 @@ def test_array_functions():
     print(arr)
     print("Sorted array: ", sorted(arr))
     arr.append(45) ## Appends element at the end of array
-    print arr
+    print(arr)
     arr.reverse()  ## Reverse an array
-    print arr
+    print(arr)
     arr.sort() ## Inplace sort array
-    print arr
+    print(arr)
 
 
 def main():
